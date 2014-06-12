@@ -1,0 +1,43 @@
+{
+  "name": "lineman-imagemin",
+  "title": "Image minification plugin for Lineman, using grunt-contrib-imagemin",
+  "description": "Minify PNG and JPEG images.",
+  "keywords": [
+    "lineman",
+    "linemanplugin",
+    "grunt",
+    "imagemin"
+  ],
+  "version": "0.1.0",
+  "homepage": "https://github.com/psiablo/lineman-imagemin",
+  "author": {
+    "name": "Eric Taylor",
+    "email": "eric@daxos.com"
+  },
+  "contributors": [
+
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/psiablo/lineman-imagemin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/psiablo/lineman-imagemin/issues"
+  },
+  "main": "main.js",
+  "dependencies": {
+    "grunt-contrib-imagemin": "~0.7.1"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  },
+  "peerDependencies": {
+    "lineman": ">= 0.27.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/psiablo/lineman-imagemin/raw/master/LICENSE"
+    }
+  ]
+}
