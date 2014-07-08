@@ -3,15 +3,15 @@ module.exports = (lineman) ->
 
   files:
     imagemin:
-      cwd: 'generated/img'
-      dest: 'generated/img'
+      cwd: 'dist/img'
+      dest: 'dist/img'
       src: '{,*/}*.{png,jpg,jpeg,gif}'
 
   config:
     loadNpmTasks: app.loadNpmTasks.concat('grunt-contrib-imagemin')
 
     prependTasks:
-      dist: app.prependTasks.dist.concat('imagemin')
+      dist: app.appendTasks.dist.concat('imagemin')
 
     imagemin:
       dist:
