@@ -8,7 +8,7 @@
     "grunt",
     "imagemin"
   ],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/psiablo/lineman-imagemin",
   "author": {
     "name": "Eric Taylor",
