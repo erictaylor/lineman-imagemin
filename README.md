@@ -14,7 +14,7 @@ $ npm install lineman-imagemin --save-dev
 
 The MIT License (MIT)
 
-Copyright (c) 2014 Daxos, http://daxos.com <hello@daxos.com>
+Copyright (c) 2014 Daxos, http://www.daxos.com &lt;hello@daxos.com&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
