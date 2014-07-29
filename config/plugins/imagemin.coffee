@@ -10,7 +10,7 @@ module.exports = (lineman) ->
   config:
     loadNpmTasks: app.loadNpmTasks.concat('grunt-contrib-imagemin')
 
-    prependTasks:
+    appendTasks:
       dist: app.appendTasks.dist.concat('imagemin')
 
     imagemin:
